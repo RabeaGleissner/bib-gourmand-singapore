@@ -1,18 +1,11 @@
 import React, { useEffect, useRef } from "react";
 
-const MapContainer = ({ onMount }) => {
+const MapContainer = ({ onMount, newMapOptions }) => {
   const elementProps = { ref: useRef(), id: "google-map" }
-  const newMapOptions = {
-    center: {
-      lat: 1.312708,
-      lng: 103.857289,
-    },
-    zoom: 8,
-    disableDefaultUI: true,
-  };
 
   useEffect(() => {
     const onLoad = () => {
+      console.log('onLoad');
       const map = new window.google.maps.Map(elementProps.ref.current, newMapOptions)
       onMount && onMount(map)
     }
@@ -32,7 +25,7 @@ const MapContainer = ({ onMount }) => {
   return (
     <section
       {...elementProps}
-      style={{ width: '400px', height: '300px'}}>
+    >
     </section>
   )
 }

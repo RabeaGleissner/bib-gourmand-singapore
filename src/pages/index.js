@@ -1,18 +1,18 @@
 import React from "react"
 import Layout from "../components/Layout"
 import SEO from "../components/seo"
-//import MapContainer from "../components/MapContainer"
+import MapContainer from "../components/MapContainer"
 import "./index.css"
-import './map.js'
 
 
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
     <h1>The map</h1>
-    {
-      //<MapContainer onMount={addRestaurants(restaurants)} />
-    }
+    <MapContainer
+      onMount={addRestaurants(restaurants)}
+      newMapOptions={newMapOptions}
+    />
   </Layout>
 )
 
@@ -39,5 +39,13 @@ const restaurants = [
     name: 'Restaurant name',
   }
 ]
+
+const newMapOptions = {
+  center: {
+    lat: 1.312708,
+    lng: 103.857289,
+  },
+  zoom: 15,
+};
 
 export default IndexPage
