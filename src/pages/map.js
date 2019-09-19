@@ -1,22 +1,5 @@
-import React from "react"
-import Layout from "../components/Layout"
-import SEO from "../components/seo"
-//import MapContainer from "../components/MapContainer"
-import "./index.css"
-import './map.js'
-
-
-const IndexPage = () => (
-  <Layout>
-    <SEO title="Home" />
-    <h1>The map</h1>
-    {
-      //<MapContainer onMount={addRestaurants(restaurants)} />
-    }
-  </Layout>
-)
-
 const addRestaurants = (restaurants) => map => {
+  console.log('adding markers')
   restaurants.forEach((restaurant, index) => {
     const marker = new window.google.maps.Marker({
       map,
@@ -40,4 +23,20 @@ const restaurants = [
   }
 ]
 
-export default IndexPage
+if (typeof window !== 'undefined') {
+  window.initMap = function() {
+    const map = new window.google.maps.Map(document.getElementById('google-map'), {
+      center:  {
+        lat: 1.312708,
+        lng: 103.857289,
+      },
+      zoom: 9,
+      disableDefaultUI: true,
+    })
+    const marker = new window.google.maps.Marker({position: {
+      lat: 1.312708,
+      lng: 103.857289,
+    }, map: map});
+  }
+  addRestaurants(restaurants)
+}

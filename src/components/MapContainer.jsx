@@ -7,6 +7,7 @@ const MapContainer = ({ onMount }) => {
       lat: 1.312708,
       lng: 103.857289,
     },
+    zoom: 8,
     disableDefaultUI: true,
   };
 
