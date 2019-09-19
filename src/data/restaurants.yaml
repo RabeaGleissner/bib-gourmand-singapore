@@ -1,0 +1,15 @@
+- name: 'A Noodle story'
+  address: 'Amoy Street Food Centre 7 Maxwell Road Stall #01-39, Singapore 069111'
+  guide-link: 'https://guide.michelin.com/sg/en/singapore-region/singapore/restaurant/a-noodle-story'
+  cuisine: 'Chinese'
+  coords:
+    lat: 1.279210
+    lng: 103.846640
+
+- name: 'Alliance Seafood'
+  address: '500 Clemenceau Ave N, #01-27 Circus Food Centre, Singapore 229495'
+  guide-link: 'https://guide.michelin.com/sg/en/singapore-region/singapore/restaurant/alliance-seafood'
+  cuisine: 'Seafood'
+  coords:
+    lat: 1.312210
+    lng: 103.839580
