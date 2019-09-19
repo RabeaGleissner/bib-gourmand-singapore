@@ -2,18 +2,19 @@ import React from "react"
 import Layout from "../components/Layout"
 import SEO from "../components/seo"
 import MapContainer from "../components/MapContainer"
-import "./index.css"
 
 
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
-    <h1>The map</h1>
-    <MapContainer
-      onMount={addRestaurants(restaurants)}
-      newMapOptions={newMapOptions}
-    />
-  </Layout>
+    <section className="map">
+      <h1>The map</h1>
+      <MapContainer
+        onMount={addRestaurants(restaurants)}
+        newMapOptions={newMapOptions}
+      />
+  </section>
+</Layout>
 )
 
 const addRestaurants = (restaurants) => map => {

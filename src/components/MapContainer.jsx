@@ -1,4 +1,5 @@
 import React, { useEffect, useRef } from "react";
+import "./map.css"
 
 const MapContainer = ({ onMount, newMapOptions }) => {
   const elementProps = { ref: useRef(), id: "google-map" }
