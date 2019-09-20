@@ -1,12 +1,21 @@
 import React, { useEffect, useRef } from "react"
 
-const GoogleMap = ({ onMount, newMapOptions }) => {
+const GoogleMap = ({ onMount, mapOptions }) => {
   const elementProps = { ref: useRef(), id: "google-map" }
 
   useEffect(() => {
+    const { center: { lat, lng }, styles } = mapOptions
     const onLoad = () => {
-      const map = new window.google.maps.Map(elementProps.ref.current, newMapOptions)
-      onMount && onMount(map)
+      const googleMap = new window.google.maps.Map(elementProps.ref.current, { styles })
+      onMount && onMount(googleMap)
+      navigator.geolocation.getCurrentPosition((position) => {
+        const initialLocation = new window.google.maps.LatLng(position.coords.latitude, position.coords.longitude)
+        googleMap.setCenter(initialLocation)
+        googleMap.setZoom(14);
+      }, (positionError) => {
+        googleMap.setCenter(new window.google.maps.LatLng(lat, lng))
+        googleMap.setZoom(12)
+      })
     }
     if (!window.google) {
       const script = document.createElement(`script`)
@@ -19,7 +28,7 @@ const GoogleMap = ({ onMount, newMapOptions }) => {
     } else {
       onLoad()
     }
-  }, [elementProps.ref, onMount, newMapOptions])
+  }, [elementProps.ref, onMount, mapOptions])
 
   return (
     <section
