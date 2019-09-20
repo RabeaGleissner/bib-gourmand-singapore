@@ -13,28 +13,33 @@ const mapOptions = {
   styles,
 }
 
-const path = `M22 1.932v11.068h-2v-11c0-.552-.448-1-1-1s-1 .448-1 1v11h-2v-11.036c0-1.287-2-1.243-2-.033v11.069h-2v-10.99c0-1.363-2-1.313-2-.054v14.472c0 2.087 2 3.463 4 3.463v26.109c0 4 6 4 6 0v-26.108c2 0 4-1.662 4-3.227v-14.701c0-1.275-2-1.226-2-.032zm9 3.068v25h2v16c0 4 7 4 7 0v-41c0-5-9-5-9 0z`
+const path = `M0-48c-9.8 0-17.7 7.8-17.7 17.4 0 15.5 17.7 30.6 17.7 30.6s17.7-15.4 17.7-30.6c0-9.6-7.9-17.4-17.7-17.4z`
 
 const icon = {
   path,
-  fillColor: `#FF0000`,
-  fillOpacity: .6,
-  //anchor: new window.google.maps.Point(0,0),
+  fillColor: `deeppink`,
+  fillOpacity: .7,
   strokeWeight: 0,
-  scale: 1
+  scale: .8,
+  rotation: 0,
 }
 
 const addRestaurants = (restaurants) => map => {
   restaurants.forEach((restaurant, index) => {
+    const  infowindow = new window.google.maps.InfoWindow({
+      content: `<div class='map-info-window'><h3 class='map-info-window-title'>${restaurant.name}</h3></div>`,
+    });
     const marker = new window.google.maps.Marker({
       map,
       icon,
       position: restaurant.coords,
-      label: restaurant.name,
-      title: restaurant.name,
+      draggable: false,
     })
     marker.addListener('click', () => {
-      console.log('clicked on marker')
+      infowindow.open(map, marker);
+      window.google.maps.event.addListener(map, 'click', () => {
+        infowindow.close();
+      });
     })
   })
 }
