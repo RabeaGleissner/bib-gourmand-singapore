@@ -1,12 +1,10 @@
-import React, { useEffect, useRef } from "react";
-import "./map.css"
+import React, { useEffect, useRef } from "react"
 
-const MapContainer = ({ onMount, newMapOptions }) => {
+const GoogleMap = ({ onMount, newMapOptions }) => {
   const elementProps = { ref: useRef(), id: "google-map" }
 
   useEffect(() => {
     const onLoad = () => {
-      console.log('onLoad');
       const map = new window.google.maps.Map(elementProps.ref.current, newMapOptions)
       onMount && onMount(map)
     }
@@ -31,4 +29,4 @@ const MapContainer = ({ onMount, newMapOptions }) => {
   )
 }
 
-export default MapContainer;
+export default GoogleMap
