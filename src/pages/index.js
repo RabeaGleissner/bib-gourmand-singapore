@@ -11,6 +11,7 @@ const IndexPage = ({ data }) => {
       <SEO title="Home" />
       <section className="map">
         <h1>The map</h1>
+        <p>Click the Michelin Man's face for details.</p>
         <RestaurantMap
           restaurants={restaurants}
         />
