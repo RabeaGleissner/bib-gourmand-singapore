@@ -13,3 +13,68 @@
   coords:
     lat: 1.312210
     lng: 103.839580
+
+- name: 'Anglo Indian Cafe & Bar'
+  address: '1 Shenton Way, #01-08, Singapore 068803'
+  guide-link: 'https://guide.michelin.com/sg/en/singapore-region/singapore/restaurant/anglo-indian-shenton-way'
+  cuisine: 'Indian'
+  coords:
+    lat: 1.279430
+    lng: 103.850440
+
+- name: 'Ah Er Herbal Soup'
+  address: 'ABC Brickworks Food Centre, 6 Jalan Bukit Merah, #01-141, 150006'
+  guide-link: 'https://guide.michelin.com/sg/en/article/dining-out/AhErSoup'
+  cuisine: 'Chinese'
+  coords:
+    lat: 1.286780
+    lng: 103.808210
+
+- name: 'Balestier Road Hoover Rojak'
+  address: '90-91 Whampoa Drive 90 #01-06, Singapore'
+  guide-link: 'https://guide.michelin.com/sg/en/singapore-region/singapore/restaurant/balestier-road-hoover-rojak'
+  cuisine: 'Chinese'
+  coords:
+    lat: 1.322747
+    lng: 103.854904
+
+- name: 'Bar-Roque Grill'
+  address: '165 Tanjong Pagar Road, Singapore'
+  guide-link: 'https://guide.michelin.com/sg/en/singapore-region/singapore/restaurant/bar-roque-grill'
+  cuisine: 'European'
+  coords:
+    lat: 1.275570
+    lng: 103.843450
+
+- name: 'Beach Road Fish Head Bee Hoon'
+  address: '91 Whampoa Drive 91 #01-46, Singapore'
+  guide-link: 'https://guide.michelin.com/sg/en/singapore-region/singapore/restaurant/beach-road-fish-head-bee-hoon'
+  cuisine: 'Chinese'
+  coords:
+    lat: 1.322808
+    lng: 103.854090
+
+- name: 'Bedok Chwee Kueh'
+  address: '208 New Upper Changi Road #01-19, Singapore'
+  guide-link: 'https://guide.michelin.com/sg/en/singapore-region/singapore/restaurant/bedok-chwee-kueh'
+  cuisine: 'Chinese'
+  coords:
+    lat: 1.325110
+    lng: 103.930480
+
+- name: 'Bismillah Biryani'
+  address: '50 Dunlop Street, Singapore'
+  guide-link: 'https://guide.michelin.com/sg/en/singapore-region/singapore/restaurant/bismillah-biryani'
+  cuisine: 'Indian'
+  coords:
+    lat: 1.304989
+    lng: 103.853600
+
+- name: 'Chai Chuan Tou Yang Rou Tang'
+  address: 'Blk 115 Bukit Merah View #01-51, Singapore'
+  guide-link: 'https://guide.michelin.com/sg/en/singapore-region/singapore/restaurant/chai-chuan-tou-yang-rou-tang'
+  cuisine: 'Chinese'
+  coords:
+    lat: 1.284842
+    lng: 103.822000
+
