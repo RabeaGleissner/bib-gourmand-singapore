@@ -1,12 +1,14 @@
-import React from "react"
+import React, { useState } from "react"
 import { graphql } from "gatsby"
 import SEO from "../components/seo"
 import RestaurantMap from "../components/RestaurantMap"
+import MoreInfo from "../components/MoreInfo"
 
-import './layout.css';
+import './main.scss';
 
 const IndexPage = ({ data }) => {
   const { allRestaurantsYaml: { nodes: restaurants } } = data;
+  const [showMoreInfo, setShowMoreInfo] = useState(false);
   return (
     <>
       <SEO title="Home" />
@@ -14,6 +16,16 @@ const IndexPage = ({ data }) => {
         <h1>Singapore Bib Gourmand map</h1>
         <p>Find the 58 Michelin awarded eateries in Singapore.</p>
         <p>Click the stars for details about the restaurants.</p>
+        <button onClick={() => setShowMoreInfo(!showMoreInfo)}>
+          <div className="more-info-button">
+            <p className="more-info-button-link">Tell me more!</p>
+          </div>
+        </button>
+        {showMoreInfo && <MoreInfo closeMoreInfo={() => {
+          setShowMoreInfo(false)
+          window.scrollTo(0, 0)
+        }
+        }/>}
       </div>
       <section className="map">
         <RestaurantMap

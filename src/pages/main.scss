@@ -1,7 +1,10 @@
+@import 'common.scss';
+
 html {
   font-family: sans-serif;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
+  color: $fontColor;
 }
 body {
   margin: 0;
@@ -11,6 +14,7 @@ body {
 a {
   background-color: transparent;
   -webkit-text-decoration-skip: objects;
+  color: $linkColor;
 }
 a:active,
 a:hover {
@@ -19,6 +23,15 @@ a:hover {
 h1 {
   font-size: 2em;
   margin: 0.67em 0;
+}
+button, input[type="submit"], input[type="reset"] {
+	background: none;
+	border: none;
+	padding: 0;
+	font: inherit;
+	cursor: pointer;
+  color: inherit;
+	outline: inherit;
 }
 button,
 input {
@@ -46,6 +59,18 @@ button::-moz-focus-inner {
 [type="submit"]:-moz-focusring,
 button:-moz-focusring {
   outline: 1px dotted ButtonText;
+}
+
+html {
+  background-color: $mainBackground;
+}
+
+button {
+  background-color: $buttonColor;
+  color: $fontColorInverse;
+  padding: 0 20px;
+  border-radius: 34px;
+  font-weight: bold;
 }
 
 .main-container {

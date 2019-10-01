@@ -19,10 +19,10 @@ const path = 'M 125,5 155,90 245,90 175,145 200,230 125,180 50,230 75,145 5,90 9
 
 const icon = {
   path,
-  fillColor: 'deeppink',
+  fillColor: '#f4796c',
   fillOpacity: 1,
   scale: .2,
-  strokeColor: 'yellow',
+  strokeColor: 'white',
   strokeWeight: 2,
 }
 
