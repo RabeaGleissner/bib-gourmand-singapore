@@ -78,3 +78,51 @@
     lat: 1.284842
     lng: 103.822000
 
+- name: 'Chef Kang’s Noodle House'
+  address: '11 Lor 3 Toa Payoh, Block A Jackson Square, Singapore 319579'
+  guide-link: 'https://guide.michelin.com/sg/en/singapore-region/singapore/restaurant/chef-kang-s-noodle-house'
+  cuisine: 'Chinese'
+  coords:
+    lat: 1.3378682
+    lng: 103.848206
+
+- name: "Chen's Mapo Tofu"
+  address: 'Downtown Gallery, #02-29, 6A Shenton Way, Singapore'
+  guide-link: 'https://guide.michelin.com/sg/en/singapore-region/singapore/restaurant/chen-s-mapo-tofu'
+  cuisine: 'Chinese'
+  coords:
+    lat: 1.2770882
+    lng: 103.8487
+
+- name: "Chey Sua Carrot Cake"
+  address: 'Blk 127, Lorong 1 Toa Payoh #02-30, Singapore'
+  guide-link: 'https://guide.michelin.com/sg/en/singapore-region/singapore/restaurant/chey-sua-carrot-cake'
+  cuisine: 'Chinese'
+  coords:
+    lat: 1.3377582
+    lng: 103.84473
+
+- name: 'Chuan Kee Boneless Braised Duck'
+  address: 'Blk 20, Ghim Moh Road #01-04, Singapore'
+  guide-link: 'https://guide.michelin.com/sg/en/singapore-region/singapore/restaurant/chuan-kee-boneless-braised-duck'
+  cuisine: 'Chinese'
+  coords:
+    lat: 1.3112291
+    lng: 103.78877
+
+- name: 'Depot Road Zhen Shan Mei Claypot Laksa'
+  address: 'Blk 120 Bukit Merah Lane #01-75, Singapore'
+  guide-link: 'https://guide.michelin.com/sg/en/singapore-region/singapore/restaurant/depot-road-zhen-shan-mei-claypot-laksa'
+  cuisine: 'Chinese'
+  coords:
+    lat: 1.2860795
+    lng: 103.80463
+
+- name: 'Eminent Frog Porridge & Seafood (Lor 19)'
+  address: 'Geylang Lorong 19, 323 Geylang Road, Singapore'
+  guide-link: 'https://guide.michelin.com/sg/en/singapore-region/singapore/restaurant/eminent-frog-porridge-seafood-lor-19'
+  cuisine: 'Chinese'
+  coords:
+    lat: 1.3128802
+    lng: 103.87931
+
