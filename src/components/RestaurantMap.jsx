@@ -4,8 +4,8 @@ import styles from "./googleMapStyles"
 import "./map.css"
 
 const singaporeCoords = {
-  lat: 1.3521,
-  lng: 103.8198,
+  lat: 1.307078,
+  lng: 103.829097,
 }
 
 const mapOptions = {
