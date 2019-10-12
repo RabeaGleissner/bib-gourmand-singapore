@@ -22,7 +22,11 @@
     "react-helmet": "^5.2.1"
   },
   "devDependencies": {
-    "prettier": "^1.18.2"
+    "cheerio": "^1.0.0-rc.3",
+    "prettier": "^1.18.2",
+    "puppeteer": "^1.20.0",
+    "request": "^2.88.0",
+    "request-promise": "^4.2.4"
   },
   "keywords": [
     "gatsby"

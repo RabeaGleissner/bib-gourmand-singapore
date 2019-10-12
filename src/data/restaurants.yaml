@@ -1,5 +1,6 @@
 - name: 'A Noodle story'
   address: 'Amoy Street Food Centre 7 Maxwell Road Stall #01-39, Singapore 069111'
+  opinion: "The stall has an interesting look and sells local, traditional noodles cooked in an innovative way."
   guide-link: 'https://guide.michelin.com/sg/en/singapore-region/singapore/restaurant/a-noodle-story'
   cuisine: 'Chinese'
   coords:
@@ -8,6 +9,7 @@
 
 - name: 'Alliance Seafood'
   address: '500 Clemenceau Ave N, #01-27 Circus Food Centre, Singapore 229495'
+  opinion: "BBQ seafood. Don't miss the chilli crab or the black pepper crab made using live crabs."
   guide-link: 'https://guide.michelin.com/sg/en/singapore-region/singapore/restaurant/alliance-seafood'
   cuisine: 'Seafood'
   coords:
@@ -16,6 +18,7 @@
 
 - name: 'Anglo Indian Cafe & Bar'
   address: '1 Shenton Way, #01-08, Singapore 068803'
+  opinion: "If there's one dish that customers should expect to find in a restaurant called Anglo Indian it's chicken tikka masala - and sure enough it's a firm favourite of many here at this simply decorated spot in the heart of the CBD. The dining room may seat only 20, but there's a large outdoor terrace where everyone congregates for the well-priced cooking. Other popular choices include butter chicken and lamb dum biryani."
   guide-link: 'https://guide.michelin.com/sg/en/singapore-region/singapore/restaurant/anglo-indian-shenton-way'
   cuisine: 'Indian'
   coords:
@@ -24,6 +27,7 @@
 
 - name: 'Ah Er Herbal Soup'
   address: 'ABC Brickworks Food Centre, 6 Jalan Bukit Merah, #01-141, 150006'
+  opinion: "Opened in 1974, near to industrial and residential areas, it has almost 100 stalls and is one of the most popular hawker centres. It was the birthplace of the Archipelago Brewery Company and, in remembrance of the company, was named ABC market.Offers 8 kinds of MSG-free long-boiled soups, served with pumpkin rice."
   guide-link: 'https://guide.michelin.com/sg/en/article/dining-out/AhErSoup'
   cuisine: 'Chinese'
   coords:
@@ -32,6 +36,7 @@
 
 - name: 'Balestier Road Hoover Rojak'
   address: '90-91 Whampoa Drive 90 #01-06, Singapore'
+  opinion: "Local-style salad with fresh ingredients; can be served with preserved duck egg."
   guide-link: 'https://guide.michelin.com/sg/en/singapore-region/singapore/restaurant/balestier-road-hoover-rojak'
   cuisine: 'Chinese'
   coords:
@@ -40,6 +45,7 @@
 
 - name: 'Bar-Roque Grill'
   address: '165 Tanjong Pagar Road, Singapore'
+  opinion: "Alsace-born Chef Stephane has created an appealing menu full of hearteningly satisfying dishes. He uses ingredients from all parts of the globe for his modern European cooking - something not to be missed is the rotisserie free-range chicken, which is from Malaysia. If you like sharing, also consider ordering the considerable 'beef platter' for your group. The room is warm and welcoming, if not quite as ornate as the punning name suggests."
   guide-link: 'https://guide.michelin.com/sg/en/singapore-region/singapore/restaurant/bar-roque-grill'
   cuisine: 'European'
   coords:
@@ -48,6 +54,7 @@
 
 - name: 'Beach Road Fish Head Bee Hoon'
   address: '91 Whampoa Drive 91 #01-46, Singapore'
+  opinion: "Specialises in fish dishes, various soups and sliced fish bee hoon. Tom yam soup and fried fish soup are worth trying."
   guide-link: 'https://guide.michelin.com/sg/en/singapore-region/singapore/restaurant/beach-road-fish-head-bee-hoon'
   cuisine: 'Chinese'
   coords:
@@ -56,6 +63,7 @@
 
 - name: 'Bedok Chwee Kueh'
   address: '208 New Upper Changi Road #01-19, Singapore'
+  opinion: "The Chwee Kueh's stuffing contains chilli, preserved radish, dried shrimps and spring onion."
   guide-link: 'https://guide.michelin.com/sg/en/singapore-region/singapore/restaurant/bedok-chwee-kueh'
   cuisine: 'Chinese'
   coords:
@@ -64,6 +72,7 @@
 
 - name: 'Bismillah Biryani'
   address: '50 Dunlop Street, Singapore'
+  opinion: "Biryani with fish or meat and flavoured with various Indian herbs."
   guide-link: 'https://guide.michelin.com/sg/en/singapore-region/singapore/restaurant/bismillah-biryani'
   cuisine: 'Indian'
   coords:
@@ -72,6 +81,7 @@
 
 - name: 'Chai Chuan Tou Yang Rou Tang'
   address: 'Blk 115 Bukit Merah View #01-51, Singapore'
+  opinion: "This spot has mastered the art of cooking mutton, with dishes like mutton soup, mutton meatballs and mutton offal."
   guide-link: 'https://guide.michelin.com/sg/en/singapore-region/singapore/restaurant/chai-chuan-tou-yang-rou-tang'
   cuisine: 'Chinese'
   coords:
@@ -80,6 +90,7 @@
 
 - name: 'Chef Kang’s Noodle House'
   address: '11 Lor 3 Toa Payoh, Block A Jackson Square, Singapore 319579'
+  opinion: "Springy noodles are cooked-to-order. Thin slices of Hong-kong style char siew and wontons with sufficient fillings are tasty."
   guide-link: 'https://guide.michelin.com/sg/en/singapore-region/singapore/restaurant/chef-kang-s-noodle-house'
   cuisine: 'Chinese'
   coords:
@@ -88,6 +99,7 @@
 
 - name: "Chen's Mapo Tofu"
   address: 'Downtown Gallery, #02-29, 6A Shenton Way, Singapore'
+  opinion: "This is the more affordable fast-food version of Shisen Hanten, managed by the same chef. The famous namesake dish is reincarnated as mapo don, literally mapo tofu on a bowl of Japanese rice. It's more numbing than spicy, with silky tofu and ground pork. Dan dan mien is another favourite, with the choice between soup and dressed noodles. Szechwan popcorn chicken with a crispy crust and juicy centre packs serious oomph and is also worth trying."
   guide-link: 'https://guide.michelin.com/sg/en/singapore-region/singapore/restaurant/chen-s-mapo-tofu'
   cuisine: 'Chinese'
   coords:
@@ -96,6 +108,7 @@
 
 - name: "Chey Sua Carrot Cake"
   address: 'Blk 127, Lorong 1 Toa Payoh #02-30, Singapore'
+  opinion: "This small hawker centre consists of only 40 stalls, yet the food on offer is more than satisfying. One must-try item is the handmade Teochew pau - bite-sized and full of amazingly delicious fillings. The very tasty carrot cake is also worth having. The pan-fried cake is popular. They'll deliver the food to your table when there's no queue at the stall."
   guide-link: 'https://guide.michelin.com/sg/en/singapore-region/singapore/restaurant/chey-sua-carrot-cake'
   cuisine: 'Chinese'
   coords:
@@ -104,6 +117,7 @@
 
 - name: 'Chuan Kee Boneless Braised Duck'
   address: 'Blk 20, Ghim Moh Road #01-04, Singapore'
+  opinion: "Duck rice, noodles, kway teow and porridge are recommended."
   guide-link: 'https://guide.michelin.com/sg/en/singapore-region/singapore/restaurant/chuan-kee-boneless-braised-duck'
   cuisine: 'Chinese'
   coords:
@@ -112,6 +126,7 @@
 
 - name: 'Depot Road Zhen Shan Mei Claypot Laksa'
   address: 'Blk 120 Bukit Merah Lane #01-75, Singapore'
+  opinion: "Ask for claypot laksa with blood cockles and you'll find the soup much tastier."
   guide-link: 'https://guide.michelin.com/sg/en/singapore-region/singapore/restaurant/depot-road-zhen-shan-mei-claypot-laksa'
   cuisine: 'Chinese'
   coords:
@@ -120,9 +135,296 @@
 
 - name: 'Eminent Frog Porridge & Seafood (Lor 19)'
   address: 'Geylang Lorong 19, 323 Geylang Road, Singapore'
+  opinion: "It serves cze char dishes like kung pao frog, sweet and sour pork and fried crab with pepper."
   guide-link: 'https://guide.michelin.com/sg/en/singapore-region/singapore/restaurant/eminent-frog-porridge-seafood-lor-19'
   cuisine: 'Chinese'
   coords:
     lat: 1.3128802
     lng: 103.87931
 
+- name: 'Fresh Taste Big Prawn NoodleFresh Taste Big Prawn Noodle'
+  address: '70 Zion Road #04, Singapore'
+  opinion: 'The soup has a rich prawn flavour. Fresh prawns, chili and pork rinds combine to make a great bowl of noodles.'
+  coords:
+    lat: 1.2929700
+    lng: 103.8299800
+
+- name: 'Fu Ming Cooked FoodFu Ming Cooked Food'
+  address: '85 Redhill Lane #01-49, Singapore'
+  opinion: 'Homemade black and white carrot cake is served. The black one with dark soya sauce is crispy and tasty.'
+  coords:
+    lat: 1.2873073
+    lng: 103.8188300
+
+- name: 'Guan Kee Fried Kway Teow'
+  address: 'Blk 20, Ghim Moh Road #01-19, Singapore'
+  opinion: 'Serves only made-to-order fried Kway Teow. Sufficient ingredients such as cockles, fishcakes and Chinese sausages make the robust flavour.'
+  coords:
+    lat: 1.3111155
+    lng: 103.7887950
+
+- name: 'Hawker Chan Soya Sauce Chicken Rice &amp; Noodle'
+  address: '78 Smith Street, Singapore'
+  opinion: "What started at a stall in Chinatown Food Centre lead inevitably to Chef Chan going into partnership and opening a restaurant. Equally inevitable is the size of the queue - it forms well before opening time, such is the reputation of his delicious soy sauce chicken rice and roast pork. The new premises may provide more space and seating but, just like back at the hawker centre, you'll be sharing your table with others."
+  coords:
+    lat: 1.2831620
+    lng: 103.8429950
+
+- name: 'Heng'
+  address: '500 Clemenceau Avenue North #01-28, Singapore'
+  opinion: "The owner has 50+ years' experience serving sweet and savoury carrot cakes. Fried oysters and oyster omelettes are also worth a try."
+  coords:
+    lat: 1.3116300
+    lng: 103.8392200
+
+- name: 'Hjh Maimunah (Jalan Pisang)'
+  address: '11, 17 Jalan Pisang, Singapore'
+  opinion: "In a narrow street behind Masjid Sultan mosque is a simple Malaysian restaurant that's always busy - and it's easy to see why: the ingredients are fresh, the food is delicious and the prices are affordable. Around 70% of dishes are Malaysian and 30% Indonesian; it's mostly self-service and the dishes to go for include Sundanese grilled chicken, beef rendang, lemak siput and tahu telur. The upstairs room is slightly more comfortable."
+  coords:
+    lat: 1.3032678
+    lng: 103.8587000
+
+- name: 'Hock Hai (Hong Lim) Curry Chicken Noodle'
+  address: '208 New Upper Changi Road #01-58, Singapore'
+  opinion: "Curry and satay flavours are available; ingredients are rich in flavour, with a slightly spicy soup."
+  coords:
+    lat: 1.3251100
+    lng: 103.9304800
+
+- name: 'Hong Heng Fried Sotong Prawn Mee'
+  address: '31 Seng Poh Road #02-01, Singapore'
+  opinion: "Cooked-to-order, the noodles stir-fried with sliced fish, squid and prawn and served with homemade chilli sauce is a favourite."
+  coords:
+    lat: 1.2846609
+    lng: 103.8326000
+
+- name: 'Hong Kee Beef Noodle'
+  address: '7 Maxwell Road #01-42, Singapore'
+  opinion: "Has over 60 years of history. The tasty beef stock is cooked for 24 hours."
+  coords:
+    lat: 1.2790500
+    lng: 103.8463900
+
+- name: 'Hong Kong Yummy Soup'
+  address: 'Blk 120 Bukit Merah Lane #01-51, Singapore'
+  opinion: "Offers six kinds of soups, like lotus root pork ribs & winter melon pork ribs. Also try steamed pork patty with pumpkin or steamed spare ribs."
+  coords:
+    lat: 1.2860248
+    lng: 103.8041150
+
+- name: 'Hoo Kee Rice Dumpling'
+  address: '7 Maxwell Road #01-18, Singapore'
+  opinion: "Glutinous rice mixed with salted duck egg yolk; pork and chestnut wrapped with bamboo leaf."
+  coords:
+    lat: 1.2790500
+    lng: 103.8463900
+
+- name: 'Indocafe- The White House'
+  address: '35 Scotts Road, Singapore'
+  opinion: "Dark wood furniture and antiques add to the elegant colonial feel of this restaurant, which lodges within a bungalow and also goes by the name of the 'The White House'. The menu is dominated by Penang-style Peranakan cuisine and, while the dishes look quite simple, their preparation involves the subtle blending of many spices and ingredients. The signature dishes include rendang, assam laksa, and kueh pie tee (pastry with turnips, prawns and crab)."
+  coords:
+    lat: 1.3108649
+    lng: 103.8356000
+
+- name: 'J2 Famous Crispy Curry Puff'
+  address: '7 Maxwell Road #01-21, Singapore'
+  opinion: "Popular street food - the curry chicken puff and sardine puff are excellent."
+  coords:
+    lat: 1.2790500
+    lng: 103.8463900
+
+- name: 'Ka Soh (Outram Park)'
+  address: '2 College Road, Singapore'
+  opinion: "The location is a little unusual but then there's nothing like being surrounded by hospital buildings to remind you of the importance of a good diet. Order the famous speciality here of milky white fish soup with noodles - made by cooking fresh snakehead fish and its bones for over four hours - and you'll feel instantly invigorated. The fried shrimp paste chicken is also worth trying. Ka Soh also has branches in Malaysia and Indonesia."
+  coords:
+    lat: 1.2825030
+    lng: 103.8356000
+
+- name: 'Koh Brother Pig&apos;s Organ Soup'
+  address: '30 Seng Poh Road #02-29, Singapore'
+  opinion: "Provides a wide range of pork offal like liver, chitterlings and tripe in pepper-flavoured stock."
+  coords:
+    lat: 1.2853800
+    lng: 103.8341200
+
+- name: 'Kok Sen'
+  address: '30-32 Keong Saik Road, Singapore'
+  opinion: "Now into its third generation, the Wong family has been serving cze char classics like seafood, eggplant, tofu in claypot and curry fish tail at various locations for nearly 50 years. Call to pre-order special dishes available only from April to September, like braised pork belly with salted mustard greens or duck smoked with camphorwood and tea leaves. Expect to find a queue any time of day. Reservations are accepted for tables of six or more."
+  coords:
+    lat: 1.2802950
+    lng: 103.8416000
+
+- name: 'Lagnaa'
+  address: '6 Upper Dickson Road, Singapore'
+  opinion: "You always have the final say on the level of spiciness of any dish you order at this three-storey restaurant in Little India, though many come for the Chilli Challenge on full moon nights to push their limits (the record currently stands at level 9). The owner-chef tries to include sweet, sour, salty, spicy, bitter and astringent flavours. His monthly specials feature seasonal ingredients and most dishes come in two serving sizes."
+  coords:
+    lat: 1.3064150
+    lng: 103.8522000
+
+- name: 'Lao Fu Zi Fried Kway Teow'
+  address: '51 Old Airport Road #01-12, Singapore'
+  opinion: "Cooked-to-order black or white fried kway teow with varied ingredients and nicely balanced flavours."
+  coords:
+    lat: 1.3080600
+    lng: 103.8859400
+
+- name: 'Lian He Ben Ji Claypot'
+  address: '335 Smith Street #02-198/199, Singapore'
+  opinion: "The claypot rice comes with 3 options: assorted, preserved meat and chicken. Cooked-to-order with charcoal."
+  coords:
+    lat: 1.2824800
+    lng: 103.8439000
+
+- name: 'Man Man (Tanjong Pagar)'
+  address: '#01-01, 1 Keong Saik Road, Singapore'
+  opinion: "The live eels here are flown in from Japan, Taiwan or China. They are then cleaned and gutted in the glass-fronted kitchen before being grilled over a charcoal pit - it's quite a performance to watch. They arrive at your table crispy on the outside and soft and yielding on the inside - and are made even more delicious thanks to the accompanying secret sauce. No bookings are taken so it's worth arriving early."
+  coords:
+    lat: 1.2789130
+    lng: 103.8414150
+
+- name: 'Muthu&apos;s Curry (Little India)'
+  address: '#01-01, 138 Race Course Road, Singapore'
+  opinion: "'Muthu' means pearl in Tamil, which befits this gem (with three other branches) serving traditional dishes from both the Southern and Northern regions of India. Originally called Muthu Makkan, the owner expanded and renamed the restaurant in 1982. The signature fish head, South Indian-style, uses a secret blend of spices. Swimmer crabs, masala prawns, lamb rack and tandoori chicken are also big hits among diners. Ask about the monthly specials."
+  coords:
+    lat: 1.3099598
+    lng: 103.8521300
+
+- name: 'Na Na Curry'
+  address: 'Blk 115 Bukit Merah View#01-47, Singapore'
+  opinion: "This hawker centre, opened In 1973, comprises 84 cooked food stalls and 167 market produce stalls. Located in the Henderson area and close to office buildings, schools and residential flats, the centre is always flooded with people thanks to its delicious, great value lunch choices. Curry fish; chicken, mutton and curry fish-head in claypots are delicious."
+  coords:
+    lat: 1.2846068
+    lng: 103.8224200
+
+- name: 'New Lucky Claypot Rice'
+  address: '44 Holland Drive #02-19, Singapore'
+  opinion: "Cooked-to-order claypot rice. While waiting, try their long-boiled soups."
+  coords:
+    lat: 1.3084284
+    lng: 103.7929500
+
+- name: 'Outram Park Fried Kway Teow'
+  address: 'Blk 531A, Upper Cross Street #02-17, Singapore'
+  opinion: "Built in 1978 and renovated in 2009, this was the first hawker centre in the Chinatown area. The 104 stalls offer Bak Kut Teh, fruit juice Mee Siam, curry chicken noodles, fish head Bee Hoon, etc. Expect long queues during lunch hours. The kway teow is fried with a dark sauce; you can add cockles to the noodles. Always a long queue."
+  coords:
+    lat: 1.2855076
+    lng: 103.8459000
+
+- name: 'Shi Hui Yuan'
+  address: '161 Mei Chin Road, Queenstown #02-33, Singapore'
+  opinion: "This two-storey building was renovated in 2009 and is now home to 47 stalls. Some of them were once at the Commonwealth Food Centre, which explains why there is such a high concentration of quality hawker stalls in this market. Thin, smooth rice noodles and gravy - with chicken, duck or chicken feet toppings."
+  coords:
+    lat: 1.2932910
+    lng: 103.8023900
+
+- name: 'Shirokane Tori-tama'
+  address: 'Robertson Walk, #01-02, 11 Unity Street, Singapore'
+  opinion: "As you step into this room, the incredible smell of char-grilled chicken skewers hits you and builds expectation. An outpost of the Tokyo-based Toritama group, this kitchen delivers an authentic yakitori experience with 20+ chicken parts to choose from. Parties of two to four may also pre-order the Kampong menu two or three days ahead. It features a special breed of the free-range bird from Malaysia and includes every cut and offal."
+  coords:
+    lat: 1.2919260
+    lng: 103.8422000
+
+- name: 'Sik Bao Sin (Desmond&apos;s Creation)'
+  address: '592 Geylang Road, Singapore'
+  opinion: "The second-generation owner-chef of this restaurant makes every dish according to traditional recipes for an authentic taste. The menu features only 13 items, but he also cooks other seasonal dishes not on the menu. His recommendation, sweet and sour pork, takes 90 minutes to make. As he cooks every dish himself, expect to wait for up to 60mins for your food. Reservations are only accepted for groups of 10 people or more. The authentic home-style cze char is worth the wait."
+  coords:
+    lat: 1.3115491
+    lng: 103.8878500
+
+- name: 'Sin Huat Eating House'
+  address: '659/661 Lorong 35 Geylang, Singapore'
+  opinion: "Rice noodles with crab and fishcakes are the signature dishes."
+  coords:
+    lat: 1.3144890
+    lng: 103.8885000
+
+- name: 'Sin Kee Famous Cantonese Chicken Rice'
+  address: 'Block 40, Stall 7, #01-39, Holland Drive, Singapore'
+  opinion: "Provides chicken rice with tender and juicy meat. The homemade grated ginger and chili sauce is appetising. Dine-in only; come early as many dishes are gone by noon."
+  coords:
+    lat: 1.3070760
+    lng: 103.7935400
+
+- name: 'Song Fa Bak Kut Teh (New Bridge Road)'
+  address: '#01-01, 11 New Bridge Road, Singapore'
+  opinion: "Much has changed since Mr Yeo started selling bak kut teh from his pushcart in Johor Road back in the late '60s - nowadays it's the second generation of the family who are running the show. They are still selling their celebrated pork ribs and peppery broth but are now doing so from 5 shops - and this one, the simplest, seems to be the best. Queue, order, pay, and then tuck into your soup - when you've finished they'll top it up for you."
+  coords:
+    lat: 1.2891530
+    lng: 103.8477000
+
+- name: 'Tai Wah Pork Noodle'
+  address: 'Blk 531A, Upper Cross Street #02-16, Singapore'
+  opinion: "Built in 1978 and renovated in 2009, this was the first hawker centre in the Chinatown area. The 104 stalls offer Bak Kut Teh, fruit juice Mee Siam, curry chicken noodles, fish head Bee Hoon, etc. Expect long queues during lunch hours. Noodles mixed with soup; meat balls; dried fish and pork liver."
+  coords:
+    lat: 1.2854346
+    lng: 103.8460700
+
+- name: 'The Blue Ginger'
+  address: '97 Tanjong Pagar Road, Singapore'
+  opinion: "There is no shortage of cute little places in Chinatown - this is one of the more popular and it's easy to see why. The narrow house offers dining on three of its floors and the works of local artists are used to add colour and character. The aromatic cuisine delivers all the subtle and authentic flavours of Peranakan - and the reason its regulars keep returning is that the portions are as generous as the prices."
+  coords:
+    lat: 1.2774460
+    lng: 103.8437000
+
+- name: 'Tian Tian Hainanese Chicken Rice'
+  address: '4 Kadayanallur Street #01-10/11, Singapore'
+  opinion: "Don't be surprised to see a long queue - their Hainanese chicken rice is hugely popular."
+  coords:
+    lat: 1.2801110
+    lng: 103.8451400
+
+- name: 'Tiong Bahru Hainanese Boneless Chicken Rice'
+  address: '35 Seng Poh Road #02-82, Singapore'
+  opinion: "Along with the signature Hainanese boneless chicken rice, it offers roasted chicken."
+  coords:
+    lat: 1.2846286
+    lng: 103.8325960
+
+- name: 'Tiong Bahru Yi Sheng Fried Hokkien Prawn Mee'
+  address: 'Blk 6 Jalan Bukit Merah #01-13, Singapore'
+  opinion: "40 years' experience goes into the cooking of the prawn noodles, stir-fried with homemade broth. Homemade chili sauce is also tempting."
+  coords:
+    lat: 1.2868768
+    lng: 103.8076200
+
+- name: 'To-Ricos Guo Shi'
+  address: '51 Old Airport Road #01-135/136, Singapore'
+  opinion: "Trotter, pork intestine, pork tripe and Kway Chap are recommended."
+  coords:
+    lat: 1.3080499
+    lng: 103.8858500
+
+- name: 'True Blue Cuisine'
+  address: '47/49 Armenian Street, Singapore'
+  opinion: "It's less like walking into a restaurant, more like falling into the warm embrace of a much loved family member. Here it's about nostalgia and paying homage to the food, history and customs of the Peranakans - you'll find all the classic dishes, prepared in an authentic way, and the hard part is narrowing down your choice. The setting really is unique and on the way out it's hard to resist buying a keepsake from the True Blue Shoppe."
+  coords:
+    lat: 1.2941010
+    lng: 103.8492000
+
+- name: 'Whole Earth'
+  address: '76 Peck Seah Street, Singapore'
+  opinion: "\"Vegetarian cuisine for non-vegetarians\" is how Phyllis and Wood describe their longstanding Thai and Peranakan restaurant. They wanted diners to feel they were eating meat even though they weren't and this they achieve through an understanding of textures and flavours and the clever use of soy product and tofu. With dishes like tom yam soup and classic assam pedas, the food is full of flavour as well as being good for you - and it's great value too."
+  coords:
+    lat: 1.2772380
+    lng: 103.8447000
+
+- name: 'Yhingthai Palace'
+  address: '#01-04, 36 Purvis Street, Singapore'
+  opinion: "Founded in the '90s by a couple passionate about Thai cuisine, this restaurant is spread over three colourful rooms decorated with Thai artefacts. Added authenticity comes courtesy of the helpful waitresses in their delightful traditional dress. The Thai and Thai-Chinese dishes are prepared with fresh ingredients that are sourced on a daily basis, with choices like Thai Otah. Prices are reasonable, both for this neighbourhood and for the quality of the food."
+  coords:
+    lat: 1.2966630
+    lng: 103.8548000
+
+- name: 'Zaffron Kitchen (East Coast)'
+  address: '135-137 East Coast Road, Singapore'
+  opinion: "This family-friendly bistro flaunts a faux-industrial look, complete with metal-framed chairs in coordinated colours, exposed brick walls, and an open kitchen. Despite the on-trend décor and tech-savvy iPad menu, the cooking is conventional Northern Indian, with dishes from the tandoor being particular highlights. Fresh ingredients are seasoned with the purest spices to great effect and the popular set lunch on weekdays offers excellent value."
+  coords:
+    lat: 1.3061450
+    lng: 103.9051000
+
+- name: 'Zai Shun Curry Fish Head'
+  address: '#01-205, 253 Jurong East Steet 24, Singapore'
+  opinion: "A busy shop offering delicious fish and stir-fried dishes; curry fish head is their signature dish."
+  coords:
+    lat: 1.3438880
+    lng: 103.7372200
