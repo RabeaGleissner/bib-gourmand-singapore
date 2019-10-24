@@ -1,5 +1,5 @@
 import React, { useState } from "react"
-import { graphql } from "gatsby"
+import { graphql, Link } from "gatsby"
 import SEO from "../components/seo"
 import RestaurantMap from "../components/RestaurantMap"
 import MoreInfo from "../components/MoreInfo"
@@ -19,9 +19,10 @@ const IndexPage = ({ data }) => {
         <div className="more-info-button-container">
           <button className="more-info-button" onClick={() => setShowMoreInfo(!showMoreInfo)}>
             <div>
-              <p className="more-info-button-link">Tell me more!</p>
+              <p className="more-info-button-link">About Bib Gourmand</p>
             </div>
           </button>
+          <Link to="/reviews/"></Link>
     </div>
         {showMoreInfo && <MoreInfo closeMoreInfo={() => {
           setShowMoreInfo(false)
