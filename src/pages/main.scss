@@ -66,15 +66,6 @@ html {
   background-color: $mainBackground;
 }
 
-button {
-  background-color: $buttonColor;
-  color: $fontColorInverse;
-  padding: 0 20px;
-  border-radius: 34px;
-  font-weight: bold;
-  line-height: .5;
-}
-
 .main-container {
   width: 80%;
   margin: 0 auto;
@@ -84,13 +75,3 @@ button {
 .map {
   margin-bottom: 40px;
 }
-
-.more-info-button-container {
-  margin-bottom: 40px;
-}
-
-.more-info-button {
-  display: block;
-  margin: 0 auto;
-}
-
