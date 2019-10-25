@@ -11,6 +11,10 @@ const ReviewTemplate = ({ data })  => {
     <div>
       <h1>hi</h1>
       this is the page
+      <div
+        className="article-content"
+        dangerouslySetInnerHTML={{ __html: html }}
+      />
     </div>
 
   )
