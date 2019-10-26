@@ -1,22 +1,26 @@
 import React from "react"
 import { graphql } from "gatsby"
+import Layout from "../components/Layout"
+import './reviews.scss'
 
 const ReviewTemplate = ({ data })  => {
-  console.log('data', data);
   const { markdownRemark } = data
-  console.log('markdownRemark', markdownRemark);
   const { frontmatter, html } = markdownRemark
-  console.log('frontmatter', frontmatter);
-  return (
-    <div>
-      <h1>hi</h1>
-      this is the page
-      <div
-        className="article-content"
-        dangerouslySetInnerHTML={{ __html: html }}
-      />
-    </div>
+  const { title, date } = frontmatter;
 
+  return (
+    <Layout>
+      <div className="blog-wrapper">
+        <div className="blog-container">
+          <h2>{title}</h2>
+          <p className="review-date">{date}</p>
+          <div
+            className="article-content"
+            dangerouslySetInnerHTML={{ __html: html }}
+          />
+        </div>
+      </div>
+    </Layout>
   )
 }
 export const pageQuery = graphql`

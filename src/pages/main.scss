@@ -6,6 +6,7 @@ html {
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
   color: $fontColor;
+  font-size: 18px;
 }
 body {
   margin: 0;
@@ -21,10 +22,20 @@ a:active,
 a:hover {
   outline-width: 0;
 }
+
 h1 {
   font-size: 2em;
   margin: 0.67em 0;
 }
+
+h2 {
+  font-size: 1.7em;
+}
+
+p {
+  line-height: 1.4em;
+}
+
 button, input[type="submit"], input[type="reset"] {
 	background: none;
 	border: none;

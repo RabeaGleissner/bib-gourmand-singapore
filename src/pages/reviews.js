@@ -1,18 +1,21 @@
 import React from "react"
 import { graphql, Link } from "gatsby"
+import Layout from "../components/Layout"
 
 const Reviews = ({ data }) => {
   return (
-    <div>
-      {data.allMarkdownRemark.edges.map(({ node }) => (
-        <div key={node.frontmatter.title}>
-          <h2>{node.frontmatter.title}</h2>
-          <p>{node.excerpt}</p>
-          <Link to={`/reviews/${node.frontmatter.slug}`}>Read more...</Link>
-        </div>
-      )
-      )}
-    </div>
+    <Layout>
+      <div className="blog-container">
+        {data.allMarkdownRemark.edges.map(({ node }) => (
+          <div key={node.frontmatter.title}>
+            <h2>{node.frontmatter.title}</h2>
+            <p>{node.excerpt}</p>
+            <Link to={`/reviews/${node.frontmatter.slug}`}>Read more...</Link>
+          </div>
+        )
+        )}
+      </div>
+    </Layout>
   )
 }
 
