@@ -28,7 +28,7 @@ const Layout = ({ children }) => {
           }
         </div>
         <div className="title">
-          <h1>Singapore Bib Gourmand map</h1>
+          <Link to="/"><h1>Singapore Bib Gourmand map</h1></Link>
           <p>The 58 Michelin awarded eateries on a map.</p>
         </div>
           {showMoreInfo && <MoreInfo closeMoreInfo={() => {
