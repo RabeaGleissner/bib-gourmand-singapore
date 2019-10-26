@@ -8,10 +8,10 @@ const MoreInfo = ({ closeMoreInfo }) => {
       <div className="more-info-component">
         <button onClick={closeMoreInfo}>
           <div className="more-info-close-button">
-            <p className="more-info-close-button-link">Close</p>
+            <p className="more-info-close-button-link">x Close</p>
           </div>
         </button>
-        <h2>Not quite Michelin stars but nearly there</h2>
+        <h3>Not quite Michelin stars but close!</h3>
         <p>You've probably heard of the famous Michelin stars, which are awarded to the best (and very expensive) restaurants in the world.</p>
         <p>In 1997 Michelin created another category, which they called "Bib Gourmand" (<strong>Bib</strong>endum is the name of the Michelin Man).</p>
         <p>Singaporean restaurants and hawker stalls in this category have meals priced up to a maximum of SG$45 - and the Michelin inspectors still highly approve of the quality of the menu.</p>

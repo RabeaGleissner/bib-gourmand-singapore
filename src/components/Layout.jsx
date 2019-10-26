@@ -14,6 +14,7 @@ const Layout = ({ children }) => {
           <button class="nav-icon-button" onClick={() => setShowNav(!showNav)}>{navIcon}</button>
           {showNav && (<nav>
             <ul>
+              <li><p><Link to="/">Home</Link></p></li>
               <li>
                 <button className="more-info-button" onClick={() => setShowMoreInfo(!showMoreInfo)}>
                   <div>
@@ -21,7 +22,7 @@ const Layout = ({ children }) => {
                   </div>
                 </button>
               </li>
-              <li><p><Link to="#">Restaurant reviews (coming soon)</Link></p></li>
+              <li><p><Link to="/reviews">Restaurant reviews</Link></p></li>
             </ul>
           </nav>)
           }
@@ -29,12 +30,12 @@ const Layout = ({ children }) => {
         <div className="title">
           <h1>Singapore Bib Gourmand map</h1>
           <p>The 58 Michelin awarded eateries on a map.</p>
+        </div>
           {showMoreInfo && <MoreInfo closeMoreInfo={() => {
             setShowMoreInfo(false)
             window.scrollTo(0, 0)
           }
           }/>}
-      </div>
     </header>
     {children}
     <div className="main-container">
