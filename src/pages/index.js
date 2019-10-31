@@ -32,6 +32,8 @@ export const query = graphql`
         name
         cuisine
         address
+        opinion
+        guideLink
         coords {
           lat
           lng

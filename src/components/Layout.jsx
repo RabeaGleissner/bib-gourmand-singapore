@@ -11,7 +11,7 @@ const Layout = ({ children }) => {
     <div>
       <header>
         <div className="nav-container">
-          <button class="nav-icon-button" onClick={() => setShowNav(!showNav)}>{navIcon}</button>
+          <button className="nav-icon-button" onClick={() => setShowNav(!showNav)}>{navIcon}</button>
           {showNav && (<nav>
             <ul>
               <li><p><Link to="/">Home</Link></p></li>

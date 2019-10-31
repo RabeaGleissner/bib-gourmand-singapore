@@ -1,6 +1,8 @@
 import React from "react"
+import { renderToString } from "react-dom/server"
 import GoogleMap from "./GoogleMap"
 import styles from "./googleMapStyles"
+import RestaurantInfoWindow from "./RestaurantInfoWindow"
 import "./map.css"
 
 const singaporeCoords = {
@@ -29,7 +31,7 @@ const icon = {
 const addRestaurants = (restaurants) => map => {
   restaurants.forEach((restaurant, index) => {
     const  infowindow = new window.google.maps.InfoWindow({
-      content: `<div class='map-info-window'><h3 class='map-info-window-title'>${restaurant.name}</h3></div>`,
+      content: renderToString(<RestaurantInfoWindow restaurant={restaurant} />),
     });
     const marker = new window.google.maps.Marker({
       map,

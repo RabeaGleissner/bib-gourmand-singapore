@@ -1,7 +1,7 @@
 - name: 'A Noodle story'
   address: 'Amoy Street Food Centre 7 Maxwell Road Stall #01-39, Singapore 069111'
   opinion: "The stall has an interesting look and sells local, traditional noodles cooked in an innovative way."
-  guide-link: 'https://guide.michelin.com/sg/en/singapore-region/singapore/restaurant/a-noodle-story'
+  guideLink: 'https://guide.michelin.com/sg/en/singapore-region/singapore/restaurant/a-noodle-story'
   cuisine: 'Chinese'
   coords:
     lat: 1.279210
@@ -10,7 +10,7 @@
 - name: 'Alliance Seafood'
   address: '500 Clemenceau Ave N, #01-27 Circus Food Centre, Singapore 229495'
   opinion: "BBQ seafood. Don't miss the chilli crab or the black pepper crab made using live crabs."
-  guide-link: 'https://guide.michelin.com/sg/en/singapore-region/singapore/restaurant/alliance-seafood'
+  guideLink: 'https://guide.michelin.com/sg/en/singapore-region/singapore/restaurant/alliance-seafood'
   cuisine: 'Seafood'
   coords:
     lat: 1.312210
@@ -19,7 +19,7 @@
 - name: 'Anglo Indian Cafe & Bar'
   address: '1 Shenton Way, #01-08, Singapore 068803'
   opinion: "If there's one dish that customers should expect to find in a restaurant called Anglo Indian it's chicken tikka masala - and sure enough it's a firm favourite of many here at this simply decorated spot in the heart of the CBD. The dining room may seat only 20, but there's a large outdoor terrace where everyone congregates for the well-priced cooking. Other popular choices include butter chicken and lamb dum biryani."
-  guide-link: 'https://guide.michelin.com/sg/en/singapore-region/singapore/restaurant/anglo-indian-shenton-way'
+  guideLink: 'https://guide.michelin.com/sg/en/singapore-region/singapore/restaurant/anglo-indian-shenton-way'
   cuisine: 'Indian'
   coords:
     lat: 1.279430
@@ -28,7 +28,7 @@
 - name: 'Ah Er Herbal Soup'
   address: 'ABC Brickworks Food Centre, 6 Jalan Bukit Merah, #01-141, 150006'
   opinion: "Opened in 1974, near to industrial and residential areas, it has almost 100 stalls and is one of the most popular hawker centres. It was the birthplace of the Archipelago Brewery Company and, in remembrance of the company, was named ABC market.Offers 8 kinds of MSG-free long-boiled soups, served with pumpkin rice."
-  guide-link: 'https://guide.michelin.com/sg/en/article/dining-out/AhErSoup'
+  guideLink: 'https://guide.michelin.com/sg/en/article/dining-out/AhErSoup'
   cuisine: 'Chinese'
   coords:
     lat: 1.286780
@@ -37,7 +37,7 @@
 - name: 'Balestier Road Hoover Rojak'
   address: '90-91 Whampoa Drive 90 #01-06, Singapore'
   opinion: "Local-style salad with fresh ingredients; can be served with preserved duck egg."
-  guide-link: 'https://guide.michelin.com/sg/en/singapore-region/singapore/restaurant/balestier-road-hoover-rojak'
+  guideLink: 'https://guide.michelin.com/sg/en/singapore-region/singapore/restaurant/balestier-road-hoover-rojak'
   cuisine: 'Chinese'
   coords:
     lat: 1.322747
@@ -46,7 +46,7 @@
 - name: 'Bar-Roque Grill'
   address: '165 Tanjong Pagar Road, Singapore'
   opinion: "Alsace-born Chef Stephane has created an appealing menu full of hearteningly satisfying dishes. He uses ingredients from all parts of the globe for his modern European cooking - something not to be missed is the rotisserie free-range chicken, which is from Malaysia. If you like sharing, also consider ordering the considerable 'beef platter' for your group. The room is warm and welcoming, if not quite as ornate as the punning name suggests."
-  guide-link: 'https://guide.michelin.com/sg/en/singapore-region/singapore/restaurant/bar-roque-grill'
+  guideLink: 'https://guide.michelin.com/sg/en/singapore-region/singapore/restaurant/bar-roque-grill'
   cuisine: 'European'
   coords:
     lat: 1.275570
@@ -55,7 +55,7 @@
 - name: 'Beach Road Fish Head Bee Hoon'
   address: '91 Whampoa Drive 91 #01-46, Singapore'
   opinion: "Specialises in fish dishes, various soups and sliced fish bee hoon. Tom yam soup and fried fish soup are worth trying."
-  guide-link: 'https://guide.michelin.com/sg/en/singapore-region/singapore/restaurant/beach-road-fish-head-bee-hoon'
+  guideLink: 'https://guide.michelin.com/sg/en/singapore-region/singapore/restaurant/beach-road-fish-head-bee-hoon'
   cuisine: 'Chinese'
   coords:
     lat: 1.322808
@@ -64,7 +64,7 @@
 - name: 'Bedok Chwee Kueh'
   address: '208 New Upper Changi Road #01-19, Singapore'
   opinion: "The Chwee Kueh's stuffing contains chilli, preserved radish, dried shrimps and spring onion."
-  guide-link: 'https://guide.michelin.com/sg/en/singapore-region/singapore/restaurant/bedok-chwee-kueh'
+  guideLink: 'https://guide.michelin.com/sg/en/singapore-region/singapore/restaurant/bedok-chwee-kueh'
   cuisine: 'Chinese'
   coords:
     lat: 1.325110
@@ -73,7 +73,7 @@
 - name: 'Bismillah Biryani'
   address: '50 Dunlop Street, Singapore'
   opinion: "Biryani with fish or meat and flavoured with various Indian herbs."
-  guide-link: 'https://guide.michelin.com/sg/en/singapore-region/singapore/restaurant/bismillah-biryani'
+  guideLink: 'https://guide.michelin.com/sg/en/singapore-region/singapore/restaurant/bismillah-biryani'
   cuisine: 'Indian'
   coords:
     lat: 1.304989
@@ -82,7 +82,7 @@
 - name: 'Chai Chuan Tou Yang Rou Tang'
   address: 'Blk 115 Bukit Merah View #01-51, Singapore'
   opinion: "This spot has mastered the art of cooking mutton, with dishes like mutton soup, mutton meatballs and mutton offal."
-  guide-link: 'https://guide.michelin.com/sg/en/singapore-region/singapore/restaurant/chai-chuan-tou-yang-rou-tang'
+  guideLink: 'https://guide.michelin.com/sg/en/singapore-region/singapore/restaurant/chai-chuan-tou-yang-rou-tang'
   cuisine: 'Chinese'
   coords:
     lat: 1.284842
@@ -91,7 +91,7 @@
 - name: 'Chef Kang’s Noodle House'
   address: '11 Lor 3 Toa Payoh, Block A Jackson Square, Singapore 319579'
   opinion: "Springy noodles are cooked-to-order. Thin slices of Hong-kong style char siew and wontons with sufficient fillings are tasty."
-  guide-link: 'https://guide.michelin.com/sg/en/singapore-region/singapore/restaurant/chef-kang-s-noodle-house'
+  guideLink: 'https://guide.michelin.com/sg/en/singapore-region/singapore/restaurant/chef-kang-s-noodle-house'
   cuisine: 'Chinese'
   coords:
     lat: 1.3378682
@@ -100,7 +100,7 @@
 - name: "Chen's Mapo Tofu"
   address: 'Downtown Gallery, #02-29, 6A Shenton Way, Singapore'
   opinion: "This is the more affordable fast-food version of Shisen Hanten, managed by the same chef. The famous namesake dish is reincarnated as mapo don, literally mapo tofu on a bowl of Japanese rice. It's more numbing than spicy, with silky tofu and ground pork. Dan dan mien is another favourite, with the choice between soup and dressed noodles. Szechwan popcorn chicken with a crispy crust and juicy centre packs serious oomph and is also worth trying."
-  guide-link: 'https://guide.michelin.com/sg/en/singapore-region/singapore/restaurant/chen-s-mapo-tofu'
+  guideLink: 'https://guide.michelin.com/sg/en/singapore-region/singapore/restaurant/chen-s-mapo-tofu'
   cuisine: 'Chinese'
   coords:
     lat: 1.2770882
@@ -109,7 +109,7 @@
 - name: "Chey Sua Carrot Cake"
   address: 'Blk 127, Lorong 1 Toa Payoh #02-30, Singapore'
   opinion: "This small hawker centre consists of only 40 stalls, yet the food on offer is more than satisfying. One must-try item is the handmade Teochew pau - bite-sized and full of amazingly delicious fillings. The very tasty carrot cake is also worth having. The pan-fried cake is popular. They'll deliver the food to your table when there's no queue at the stall."
-  guide-link: 'https://guide.michelin.com/sg/en/singapore-region/singapore/restaurant/chey-sua-carrot-cake'
+  guideLink: 'https://guide.michelin.com/sg/en/singapore-region/singapore/restaurant/chey-sua-carrot-cake'
   cuisine: 'Chinese'
   coords:
     lat: 1.3377582
@@ -118,7 +118,7 @@
 - name: 'Chuan Kee Boneless Braised Duck'
   address: 'Blk 20, Ghim Moh Road #01-04, Singapore'
   opinion: "Duck rice, noodles, kway teow and porridge are recommended."
-  guide-link: 'https://guide.michelin.com/sg/en/singapore-region/singapore/restaurant/chuan-kee-boneless-braised-duck'
+  guideLink: 'https://guide.michelin.com/sg/en/singapore-region/singapore/restaurant/chuan-kee-boneless-braised-duck'
   cuisine: 'Chinese'
   coords:
     lat: 1.3112291
@@ -127,7 +127,7 @@
 - name: 'Depot Road Zhen Shan Mei Claypot Laksa'
   address: 'Blk 120 Bukit Merah Lane #01-75, Singapore'
   opinion: "Ask for claypot laksa with blood cockles and you'll find the soup much tastier."
-  guide-link: 'https://guide.michelin.com/sg/en/singapore-region/singapore/restaurant/depot-road-zhen-shan-mei-claypot-laksa'
+  guideLink: 'https://guide.michelin.com/sg/en/singapore-region/singapore/restaurant/depot-road-zhen-shan-mei-claypot-laksa'
   cuisine: 'Chinese'
   coords:
     lat: 1.2860795
@@ -136,7 +136,7 @@
 - name: 'Eminent Frog Porridge & Seafood (Lor 19)'
   address: 'Geylang Lorong 19, 323 Geylang Road, Singapore'
   opinion: "It serves cze char dishes like kung pao frog, sweet and sour pork and fried crab with pepper."
-  guide-link: 'https://guide.michelin.com/sg/en/singapore-region/singapore/restaurant/eminent-frog-porridge-seafood-lor-19'
+  guideLink: 'https://guide.michelin.com/sg/en/singapore-region/singapore/restaurant/eminent-frog-porridge-seafood-lor-19'
   cuisine: 'Chinese'
   coords:
     lat: 1.3128802
