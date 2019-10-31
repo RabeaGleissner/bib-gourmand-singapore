@@ -99,6 +99,7 @@
 
 - name: "Chen's Mapo Tofu"
   address: 'Downtown Gallery, #02-29, 6A Shenton Way, Singapore'
+  reviewSlug: 'chens-mapo-tofu'
   opinion: "This is the more affordable fast-food version of Shisen Hanten, managed by the same chef. The famous namesake dish is reincarnated as mapo don, literally mapo tofu on a bowl of Japanese rice. It's more numbing than spicy, with silky tofu and ground pork. Dan dan mien is another favourite, with the choice between soup and dressed noodles. Szechwan popcorn chicken with a crispy crust and juicy centre packs serious oomph and is also worth trying."
   guideLink: 'https://guide.michelin.com/sg/en/singapore-region/singapore/restaurant/chen-s-mapo-tofu'
   cuisine: 'Chinese'

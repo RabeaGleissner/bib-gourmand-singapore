@@ -33,14 +33,14 @@ export const query = graphql`
         cuisine
         address
         opinion
-        guideLink
+        reviewSlug
         coords {
           lat
           lng
         }
       }
-      }
-      }
-      `
+    }
+  }
+`
 
 export default IndexPage

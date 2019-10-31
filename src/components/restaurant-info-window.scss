@@ -5,3 +5,14 @@
   width: 300px;
   height: auto;
 }
+
+.map-info-window-review-link {
+  padding: 5px 8px;
+  border-radius: 10px;
+  background-color: $themeColor;
+  width: 93px;
+  span {
+    color: white;
+    font-weight: 700;
+  }
+}
