@@ -2,6 +2,7 @@ import React from "react"
 import { graphql, Link } from "gatsby"
 import Layout from "../components/Layout"
 import "../templates/reviews.scss"
+import "./main.scss";
 
 const Reviews = ({ data }) => {
   return (

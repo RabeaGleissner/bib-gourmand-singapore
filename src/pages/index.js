@@ -3,8 +3,7 @@ import { graphql } from "gatsby"
 import SEO from "../components/seo"
 import RestaurantMap from "../components/RestaurantMap"
 import Layout from "../components/Layout"
-
-import './main.scss';
+import "./main.scss";
 
 const IndexPage = ({ data }) => {
   const { allRestaurantsYaml: { nodes: restaurants } } = data;
