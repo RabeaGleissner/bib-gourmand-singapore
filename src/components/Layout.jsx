@@ -1,10 +1,8 @@
 import React, { useState } from "react"
 import { Link } from "gatsby"
-import MoreInfo from "../components/MoreInfo"
 import "./layout.scss"
 
 const Layout = ({ children }) => {
-  const [showMoreInfo, setShowMoreInfo] = useState(false)
   const [showNav, setShowNav] = useState(false)
   const navIcon = showNav ? 'x' : '\u2630'
   return (
@@ -14,15 +12,15 @@ const Layout = ({ children }) => {
           <button className="nav-icon-button" onClick={() => setShowNav(!showNav)}>{navIcon}</button>
           {showNav && (<nav>
             <ul>
-              <li><p><Link to="/">Home</Link></p></li>
               <li>
-                <button className="more-info-button" onClick={() => setShowMoreInfo(!showMoreInfo)}>
-                  <div>
-                    <p className="more-info-button-link">About Bib Gourmand</p>
-                  </div>
-                </button>
+                <p><Link to="/">Home</Link></p>
               </li>
-              <li><p><Link to="/reviews">Restaurant reviews</Link></p></li>
+              <li>
+                <p><Link to="/about">More info</Link></p>
+              </li>
+              <li>
+                <p><Link to="/reviews">Restaurant reviews</Link></p>
+              </li>
             </ul>
           </nav>)
           }
@@ -31,11 +29,6 @@ const Layout = ({ children }) => {
           <Link to="/"><h1>Singapore Bib Gourmand map</h1></Link>
           <p>The 58 Michelin awarded eateries on a map.</p>
         </div>
-          {showMoreInfo && <MoreInfo closeMoreInfo={() => {
-            setShowMoreInfo(false)
-            window.scrollTo(0, 0)
-          }
-          }/>}
     </header>
     {children}
     <div className="main-container">
