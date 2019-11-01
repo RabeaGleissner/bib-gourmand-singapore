@@ -27,7 +27,7 @@ const GoogleMap = ({ onMount, mapOptions }) => {
   useEffect(() => {
     const { center: { lat, lng }, styles } = mapOptions
     const onLoad = async () => {
-      const googleMap = new window.google.maps.Map(elementProps.ref.current, { styles })
+      const googleMap = new window.google.maps.Map(elementProps.ref.current, { styles, disableDefaultUI: true, zoomControl: true })
       onMount && onMount(googleMap)
       try {
         const position = await getCurrentPosition()
@@ -57,9 +57,7 @@ const GoogleMap = ({ onMount, mapOptions }) => {
   }, [elementProps.ref, onMount, mapOptions])
 
   return (
-    <section
-      {...elementProps}
-    >
+    <section {...elementProps}>
     </section>
   )
 }
