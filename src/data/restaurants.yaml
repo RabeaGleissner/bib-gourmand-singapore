@@ -265,6 +265,7 @@
 - name: 'Lao Fu Zi Fried Kway Teow'
   address: '51 Old Airport Road #01-12, Singapore'
   opinion: "Cooked-to-order black or white fried kway teow with varied ingredients and nicely balanced flavours."
+  reviewSlug: 'lao-fu-zi'
   coords:
     lat: 1.3080600
     lng: 103.8859400
