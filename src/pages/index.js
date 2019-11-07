@@ -9,7 +9,7 @@ const IndexPage = ({ data }) => {
   const { allRestaurantsYaml: { nodes: restaurants } } = data;
   return (
     <>
-    <SEO title="Home" />
+    <SEO title="Singapore Bib Gourmand Map" />
     <Layout>
       <div className="main-container">
         <p>Click the stars for details about the restaurants.</p>
