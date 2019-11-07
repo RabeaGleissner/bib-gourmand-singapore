@@ -411,6 +411,7 @@
     lng: 103.8447000
 
 - name: 'Yhingthai Palace'
+  reviewSlug: 'yhingthai-palace'
   address: '#01-04, 36 Purvis Street, Singapore'
   opinion: "Founded in the '90s by a couple passionate about Thai cuisine, this restaurant is spread over three colourful rooms decorated with Thai artefacts. Added authenticity comes courtesy of the helpful waitresses in their delightful traditional dress. The Thai and Thai-Chinese dishes are prepared with fresh ingredients that are sourced on a daily basis, with choices like Thai Otah. Prices are reasonable, both for this neighbourhood and for the quality of the food."
   coords:

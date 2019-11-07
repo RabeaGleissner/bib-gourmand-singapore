@@ -12,7 +12,7 @@ Bryan is a Singapore local and experienced Char Kway Teow eater, so I was glad t
 
 We arrived just before 1:30pm and there was a bit of a queue, so we had to wait for approximately 10-15 minutes before being able to order. (In the mean time Bryan got some Mala from the place next door - it was ok, but I wouldn’t necessarily recommend it.)
 
-![Waiting in line while Bryan is pointing out the Mala place](./images/lao-fu-queue.jpg)
+![Waiting in line](./images/lao-fu-queue.jpg)
 
 The Char Kway Teow came in three different portion sizes: $5, $8 and $10.
 
