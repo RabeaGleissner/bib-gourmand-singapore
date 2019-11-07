@@ -8,40 +8,28 @@ header {
   position: relative;
 }
 
-.nav-container {
-  min-width: 40px;
-  padding-left: 10px;
-  position: absolute;
-  top: 0;
-  left: 0;
-  z-index: 1;
-  background-color: rgba(244,121,108, 0.9);
-  border-radius: 5%;
-}
-
-.nav-icon-button {
-  font-size: 1.7em;
-  height: 50px;
-  width: 50px;
-}
-
 nav {
-  width: 210px;
+  width: 190px;
+  margin: 0 auto;
   ul {
-    margin: 0;
+    display: flex;
+    justify-content: space-between;
     padding: 0;
+    a {
+      color: $fontColorInverse;
+      text-decoration: none;
+    }
+    p {
+      border-bottom: 1px solid white;
+    }
   }
   li {
     list-style: none;
-    padding-left: 20px;
+    padding: 10px;
   }
-  a {
-    color: $fontColorInverse;
-    text-decoration: none;
-  }
-  p {
-    text-align: left;
-    text-decoration: underline;
+  .current-page {
+    display: none;
+    width: 0;
   }
 }
 
