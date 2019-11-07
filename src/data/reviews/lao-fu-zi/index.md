@@ -43,4 +43,4 @@ Bryan also thought the food was good but he felt that it didn’t have enough "w
 
 Rabea's rating: 7.5/10
 
-Bryan's rating: 8.5/10
+Bryan's rating: 8/10 (there are better places)
