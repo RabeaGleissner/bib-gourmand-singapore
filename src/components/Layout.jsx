@@ -19,7 +19,7 @@ const Layout = ({ children }) => {
                   <p>More info</p>
                 </li>
               </Link>
-              <Link activeClassName="current-page" to="/reviews">
+              <Link partiallyActive={true} activeClassName="current-page" to="/reviews">
                 <li>
                   <p>Reviews</p>
                 </li>
