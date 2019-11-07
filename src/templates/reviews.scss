@@ -20,7 +20,7 @@
   margin-bottom: 30px;
 
   figure {
-    border: 10px solid $themeColor;
+    border: 5px solid $themeColor;
     border-bottom: 30px solid $themeColor;
     margin: 0 0 15px;
     position: relative;
@@ -34,7 +34,7 @@
     color: $fontColorInverse;
     z-index: 1;
     position: absolute;
-    left: 0;
+    left: 2px;
     bottom: -26px;
     font-weight: 700;
   }
