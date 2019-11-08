@@ -11,6 +11,12 @@ module.exports = {
     `gatsby-plugin-sass`,
     `gatsby-plugin-sitemap`,
     {
+      resolve: `gatsby-plugin-google-analytics`,
+      options: {
+        trackingId: "UA-149407274-2",
+      },
+    },
+    {
       resolve: `gatsby-source-filesystem`,
       options: {
         name: `reviews`,
