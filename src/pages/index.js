@@ -11,9 +11,7 @@ const IndexPage = ({ data }) => {
     <>
     <SEO title="Singapore Bib Gourmand Map" />
     <Layout>
-      <div className="main-container">
-        <p>Click the stars for details about the restaurants.</p>
-      </div>
+      <p>Click the stars for details about the restaurants.</p>
       <section className="map">
         <RestaurantMap
           restaurants={restaurants}

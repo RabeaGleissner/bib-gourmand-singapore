@@ -27,14 +27,14 @@ const Layout = ({ children }) => {
             </ul>
           </nav>
         </div>
-    </header>
-    {children}
-    <div className="main-container">
-      <footer>
-        © {new Date().getFullYear()}, Built by a hungry <a href="http://rabea.dev">Rabea</a>.
-      </footer>
+      </header>
+      <div className="main-container">
+        {children}
+        <footer>
+          © {new Date().getFullYear()}, Built by a hungry <a href="http://rabea.dev">Rabea</a>.
+        </footer>
+      </div>
     </div>
-  </div>
   )
 }
 

@@ -27,17 +27,18 @@ const GoogleMap = ({ onMount, mapOptions }) => {
   useEffect(() => {
     const { center: { lat, lng }, styles } = mapOptions
     const onLoad = async () => {
-      const googleMap = new window.google.maps.Map(elementProps.ref.current, { styles, disableDefaultUI: true, zoomControl: true })
+      const googleMap = new window.google.maps.Map(elementProps.ref.current, { styles, disableDefaultUI: true, zoomControl: true, gestureHandling: 'greedy' })
       onMount && onMount(googleMap)
       try {
-        const position = await getCurrentPosition()
-        const initialLocation = new window.google.maps.LatLng(position.coords.latitude, position.coords.longitude)
-        const isInSingapore = isInsidePolygon(initialLocation, singaporePolygon)
+        const { coords } = await getCurrentPosition()
+        const initialLocation = new window.google.maps.LatLng(coords.latitude, coords.longitude)
+        const userLocation = [coords.latitude, coords.longitude]
+        const isInSingapore = isInsidePolygon(userLocation, singaporePolygon)
         if (!isInSingapore) {
           throw new Error('not in Singapore')
         }
         googleMap.setCenter(initialLocation)
-        googleMap.setZoom(14);
+        googleMap.setZoom(15);
       } catch (error) {
         googleMap.setCenter(new window.google.maps.LatLng(lat, lng))
         googleMap.setZoom(13)
