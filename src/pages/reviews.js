@@ -26,7 +26,7 @@ const Reviews = ({ data }) => {
 export const query = graphql`
       query {
         allMarkdownRemark(
-          sort: { fields: [frontmatter___title], order: DESC },
+          sort: { fields: [frontmatter___title], order: ASC },
         ) {
           totalCount
           edges {

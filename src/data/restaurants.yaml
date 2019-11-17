@@ -143,14 +143,14 @@
     lat: 1.3128802
     lng: 103.87931
 
-- name: 'Fresh Taste Big Prawn NoodleFresh Taste Big Prawn Noodle'
+- name: 'Fresh Taste Big Prawn Noodle'
   address: '70 Zion Road #04, Singapore'
   opinion: 'The soup has a rich prawn flavour. Fresh prawns, chili and pork rinds combine to make a great bowl of noodles.'
   coords:
     lat: 1.2929700
     lng: 103.8299800
 
-- name: 'Fu Ming Cooked FoodFu Ming Cooked Food'
+- name: 'Fu Ming Cooked Food'
   address: '85 Redhill Lane #01-49, Singapore'
   opinion: 'Homemade black and white carrot cake is served. The black one with dark soya sauce is crispy and tasty.'
   coords:
@@ -165,6 +165,7 @@
     lng: 103.7887950
 
 - name: 'Hawker Chan Soya Sauce Chicken Rice & Noodle'
+  reviewSlug: 'hawker-chan'
   address: '78 Smith Street, Singapore'
   opinion: "What started at a stall in Chinatown Food Centre lead inevitably to Chef Chan going into partnership and opening a restaurant. Equally inevitable is the size of the queue - it forms well before opening time, such is the reputation of his delicious soy sauce chicken rice and roast pork. The new premises may provide more space and seating but, just like back at the hawker centre, you'll be sharing your table with others."
   coords:
@@ -241,7 +242,7 @@
     lat: 1.2825030
     lng: 103.8356000
 
-- name: 'Koh Brother Pig&apos;s Organ Soup'
+- name: "Koh Brother Pig's Organ Soup"
   address: '30 Seng Poh Road #02-29, Singapore'
   opinion: "Provides a wide range of pork offal like liver, chitterlings and tripe in pepper-flavoured stock."
   coords:
@@ -284,7 +285,7 @@
     lat: 1.2789130
     lng: 103.8414150
 
-- name: 'Muthu&apos;s Curry (Little India)'
+- name: "Muthu's Curry (Little India)"
   address: '#01-01, 138 Race Course Road, Singapore'
   opinion: "'Muthu' means pearl in Tamil, which befits this gem (with three other branches) serving traditional dishes from both the Southern and Northern regions of India. Originally called Muthu Makkan, the owner expanded and renamed the restaurant in 1982. The signature fish head, South Indian-style, uses a secret blend of spices. Swimmer crabs, masala prawns, lamb rack and tandoori chicken are also big hits among diners. Ask about the monthly specials."
   coords:
