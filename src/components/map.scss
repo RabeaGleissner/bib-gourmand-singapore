@@ -1,0 +1,30 @@
+.map {
+  max-width: 900px;
+  margin: 0 auto 40px;
+  position: relative;
+}
+
+#google-map {
+  height: 500px;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+@media screen and (min-width: 400px) {
+  #google-map {
+    height: 700px;
+  }
+}
+
+.google-map-cross-hairs {
+  position: absolute;
+  z-index: 1;
+  top: 10px;
+  right: 10px;
+  width: 60px;
+  height: 60px;
+  background: white url(../images/crosshair.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 50px;
+}

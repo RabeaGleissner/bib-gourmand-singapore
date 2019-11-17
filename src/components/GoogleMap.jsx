@@ -39,6 +39,14 @@ const GoogleMap = ({ onMount, mapOptions }) => {
         }
         googleMap.setCenter(initialLocation)
         googleMap.setZoom(15);
+        const crossHairs = document.createElement(`button`)
+        crossHairs.className += `google-map-cross-hairs`
+        const mapElement = document.getElementById(`map`)
+        mapElement.appendChild(crossHairs)
+        crossHairs.onclick = () => {
+          googleMap.setCenter(initialLocation)
+          googleMap.setZoom(16);
+        }
       } catch (error) {
         googleMap.setCenter(new window.google.maps.LatLng(lat, lng))
         googleMap.setZoom(13)

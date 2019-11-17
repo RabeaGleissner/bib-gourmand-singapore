@@ -12,7 +12,7 @@ const IndexPage = ({ data }) => {
     <SEO title="Singapore Bib Gourmand Map" />
     <Layout>
       <p>Click the stars for details about the restaurants.</p>
-      <section className="map">
+      <section id="map" className="map">
         <RestaurantMap
           restaurants={restaurants}
         />

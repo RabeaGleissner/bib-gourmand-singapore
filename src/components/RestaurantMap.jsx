@@ -3,7 +3,7 @@ import { renderToString } from "react-dom/server"
 import GoogleMap from "./GoogleMap"
 import styles from "./googleMapStyles"
 import RestaurantInfoWindow from "./RestaurantInfoWindow"
-import "./map.css"
+import "./map.scss"
 
 const singaporeCoords = {
   lat: 1.307078,
