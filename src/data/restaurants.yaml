@@ -72,6 +72,7 @@
 
 - name: 'Bismillah Biryani'
   address: '50 Dunlop Street, Singapore'
+  reviewSlug: 'bismillah-biryani'
   opinion: "Biryani with fish or meat and flavoured with various Indian herbs."
   guideLink: 'https://guide.michelin.com/sg/en/singapore-region/singapore/restaurant/bismillah-biryani'
   cuisine: 'Indian'
