@@ -55,7 +55,7 @@ const GoogleMap = ({ onMount, mapOptions }) => {
     if (!window.google) {
       const script = document.createElement(`script`)
       script.type = `text/javascript`
-      script.src = `https://maps.googleapis.com/maps/api/js?key=AIzaSyALmPN6OhR0hNc2Iz2bPKbB7e8qNOflmV4&callback`
+      script.src = `https://maps.googleapis.com/maps/api/js?key=${process.env.GATSBY_GOOGLE_API_KEY}&callback`
       const headScript = document.getElementsByTagName(`script`)[0]
       headScript.parentNode.insertBefore(script, headScript)
       script.addEventListener(`load`, onLoad)
